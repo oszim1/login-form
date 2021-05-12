@@ -1,6 +1,6 @@
 body {
   background-color: #ccc;
-  font-family: tahoma, arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background-image: url(../images/andras-vas-Bd7gNnWJBkU-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -15,11 +15,11 @@ nav {
 
 nav ul li {
   display: inline-block;
-  border: solid 1.4px rgb(139, 66, 221);
+  border: solid 2px rgb(139, 66, 221);
   letter-spacing: 2px;
   padding: 5px;
   margin-right: 20px;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 nav ul a {
@@ -32,11 +32,20 @@ nav ul a:hover {
   color:rgb(141, 69, 209);
 }
 
+
+.log {
+  width: 30%;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 200px;
+  box-sizing: border-box;
+  padding-top: 20px;
+}
+
 .login-form {
-  width: 200px;
-  margin: auto;
-  margin-top: 150px;
-  color: white;
+  width: 50%;
+  margin: auto; 
+  color: white; 
 }
 
 .login {
@@ -49,18 +58,18 @@ nav ul a:hover {
   text-align: center;
   margin-bottom: 10px;
   font-size: 18px;
+  letter-spacing: 0.1em;
 }
 
 .username, .password {
   display: block;
   margin-bottom: 15px;
-  font-size: 12px;
+  font-size: 18px;
   letter-spacing: 2px;
 }
 
 .login-form input {
   display: block;
-  margin-bottom: 10px;
   background-color:#ccc;
   border: none;
 }
@@ -70,8 +79,16 @@ nav ul a:hover {
   color: white;
 }
 
+#pass, #user {
+  width: 100%;
+  height: 25px;
+  margin-bottom: 20px;
+}
+
 .btn {
   margin: auto;
+  font-size: 18px;
+  letter-spacing: 0.1em;
   color: rgb(31, 30, 30);
   transition: 0.6s;
 }
@@ -79,36 +96,36 @@ nav ul a:hover {
 .btn:hover {
   color: rgb(139, 66, 221);
   background-color: rgb(46, 43, 43);
+  cursor: pointer;
 }
 
-.l1 {
-  width: 200px;
-  margin: auto;
+.forgot-pass {
+  width: 50%;
+  margin: 0 auto;
+  font-size: 14px;
   text-align: right;
-  position: relative;
-  bottom: 15px;
+  box-sizing: border-box;
+  padding-right: 10px;
 }
 
-.l1 a {
-  color: white;
-  font-size: 10px;
+.forgot-pass a {
+  color: white; 
   text-decoration: none;
   transition: color 0.5s;
 }
 
-.l1 a:hover {
+.forgot-pass a:hover {
   color: rgb(139, 66, 221);
 }
 
 .footer {
-  font-size: 12px;
-  width: 250px;
-  margin: auto;
-  margin-top: 200px;
-  position: relative;
-  right: 450px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 350px;
+  padding-left: 40px;
+  box-sizing: border-box;
   color: white;
-  letter-spacing: 2px;
+  letter-spacing: .1em;
 }
 
 .footer a {
